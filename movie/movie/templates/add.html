@@ -1,0 +1,9 @@
+
+<form method='POST' enctype='multipart/form-data'>
+    {% csrf_token %}
+    <input type='text' name='name' placeholder='enter your name'><br>
+    <input type='text' name='age' placeholder='enter your age'><br>
+    <input type='text' name='desc' placeholder='enter your desc'><br>
+    <input type='file' name='img' placeholder='enter your image'><br>
+    <input type='submit'>
+</form>
